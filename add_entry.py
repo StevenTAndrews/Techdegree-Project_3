@@ -15,6 +15,7 @@ class Add_Entry:
 				'Minutes Spent': input("\n How many minutes were spent on task? \n \n"),
 				'Notes': input('\n Do you have any notes to add? If none, type "NA". \n \n'),
 				})
+			print('\nEntry has been added.')
 		else:
 			with open('Log.csv', 'a') as csvfile:
 				fieldnames = ['Task', 'The Date', 'Minutes Spent', 'Notes']
@@ -26,3 +27,4 @@ class Add_Entry:
 				'Minutes Spent': input("\n How many minutes were spent on task? \n \n"),
 				'Notes': input('\n Do you have any notes to add? If none, type "NA". \n \n'),
 				})
+			print('\nEntry has been added.')
