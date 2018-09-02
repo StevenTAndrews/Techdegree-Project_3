@@ -23,7 +23,7 @@ class Add_Entry:
 				logwriter.writeheader()
 				logwriter.writerow({
 				'Task': input('What is the name of the task? \n \n'),
-				'The Date': datetime.datetime.now().date().strftime(fmt),
+                'The Date': datetime.datetime.now().date().strftime(fmt),
 				'Minutes Spent': input("\n How many minutes were spent on task? \n \n"),
 				'Notes': input('\n Do you have any notes to add? If none, type "NA". \n \n'),
 				})
