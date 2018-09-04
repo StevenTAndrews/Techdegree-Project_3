@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
 
     choice = input('What would you like to do?'
-        '\n 1. Add new entry.'
-        '\n 2. Search existing entry. \n\n')
+                   '\n 1. Add new entry.'
+                   '\n 2. Search existing entry. \n\n')
 
     menu(choice)
